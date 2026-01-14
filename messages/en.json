@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "studio": "Studio",
+    "faq": "FAQ",
+    "bookNow": "Book Now",
+    "close": "Close"
+  },
+  "hero": {
+    "title": "Your Podcast,",
+    "subtitle": "Professional Quality",
+    "description": "Create exceptional content in the heart of Nice. State-of-the-art equipment, professional sound engineering, and instant delivery.",
+    "primaryCTA": "Book Your Session Now",
+    "secondaryCTA": "Explore Services",
+    "stats": {
+      "video": "Video Recording",
+      "space": "Studio Space",
+      "availability": "Availability",
+      "rating": "Client Rating"
+    }
+  },
+  "features": {
+    "title": "Why Choose",
+    "highlight": "Studio Nice Podcast",
+    "description": "Everything you need to create professional podcast content in one place",
+    "features": {
+      "audio": {
+        "title": "Professional Audio",
+        "description": "State-of-the-art microphones and soundproofing for crystal-clear audio quality"
+      },
+      "video": {
+        "title": "4K Video Recording",
+        "description": "Multi-camera setup with professional lighting for stunning video content"
+      },
+      "booking": {
+        "title": "Flexible Booking",
+        "description": "Easy online booking system with real-time availability and instant confirmation"
+      },
+      "support": {
+        "title": "Expert Support",
+        "description": "On-site technical team to ensure your recording session runs smoothly"
+      }
+    },
+    "cta": "Get Started Today"
+  },
+  "pricing": {
+    "title": "Simple, Transparent",
+    "highlight": "Pricing",
+    "description": "Choose the perfect package for your podcast needs",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "€199",
+        "duration": "/session",
+        "description": "Perfect for beginners and solo podcasters",
+        "features": [
+          "2-hour recording session",
+          "Professional audio equipment",
+          "Basic editing & mixing",
+          "MP3 & WAV files",
+          "1 microphone setup",
+          "Standard lighting"
+        ],
+        "cta": "Book Starter Plan"
+      },
+      "professional": {
+        "name": "Professional",
+        "popular": "Most Popular",
+        "price": "€399",
+        "duration": "/session",
+        "description": "Ideal for regular podcasters and interviews",
+        "features": [
+          "4-hour recording session",
+          "Premium audio equipment",
+          "Advanced editing & mixing",
+          "All file formats included",
+          "Up to 4 microphones",
+          "Professional lighting setup",
+          "Sound engineer on-site",
+          "Video recording option"
+        ],
+        "cta": "Book Professional Plan"
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€799",
+        "duration": "/session",
+        "description": "Full-day production for comprehensive content",
+        "features": [
+          "8-hour full-day session",
+          "Top-of-the-line equipment",
+          "Complete post-production",
+          "Raw & edited files",
+          "Up to 6 microphones",
+          "Cinema-grade lighting",
+          "Dedicated sound engineer",
+          "4K multi-camera video",
+          "Social media clips",
+          "Thumbnail design"
+        ],
+        "cta": "Book Premium Plan"
+      }
+    },
+    "customPackage": "Need a custom package?",
+    "contactUs": "Contact us for a quote"
+  },
+  "studio": {
+    "title": "State-of-the-Art",
+    "highlight": "Studio",
+    "description": "Professional equipment and facilities for exceptional content creation",
+    "stats": {
+      "space": "Studio Space",
+      "quality": "Video Quality",
+      "availability": "Availability",
+      "satisfaction": "Satisfaction"
+    },
+    "categories": {
+      "audio": {
+        "title": "Audio",
+        "items": [
+          "Neumann U87 Microphones",
+          "Shure SM7B Dynamic Mics",
+          "SSL Console",
+          "Professional Headphones",
+          "Acoustic Treatment"
+        ]
+      },
+      "video": {
+        "title": "Video",
+        "items": [
+          "4K Cinema Cameras",
+          "Professional Lighting Setup",
+          "Green Screen Options",
+          "Multi-angle Recording",
+          "Teleprompter Available"
+        ]
+      },
+      "facilities": {
+        "title": "Facilities",
+        "items": [
+          "45m² Studio Space",
+          "Climate Control",
+          "Comfortable Seating",
+          "Makeup Room",
+          "Waiting Area"
+        ]
+      }
+    },
+    "location": {
+      "title": "Prime Location",
+      "description": "Located in the heart of Nice, France. Easy access from the airport and public transportation. Perfect for local and international podcasters."
+    },
+    "hours": {
+      "title": "Flexible Hours",
+      "description": "Book sessions 24/7 based on availability. Early morning or late night sessions available to accommodate your schedule and international guests."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked",
+    "highlight": "Questions",
+    "description": "Everything you need to know about our services",
+    "questions": [
+      {
+        "q": "How do I book a recording session?",
+        "a": "Simply click on any \"Book Now\" button or the WhatsApp button to get in touch with us directly. We'll help you schedule your session at a time that works best for you. You can also reach us via phone or email to check availability and make a reservation."
+      },
+      {
+        "q": "What should I prepare before my session?",
+        "a": "We recommend preparing your content outline, questions for interviews, and any scripts beforehand. If you're recording with guests, coordinate their availability. Don't worry about the technical side - our team will handle all equipment setup and sound checks."
+      },
+      {
+        "q": "How long does editing take?",
+        "a": "Editing turnaround time depends on the package: Starter includes basic editing (3-5 days), Professional includes advanced editing (2-3 days), and Premium includes priority editing (24-48 hours). Rush delivery is available for an additional fee."
+      },
+      {
+        "q": "Can I bring guests to my recording session?",
+        "a": "Absolutely! Our studio can accommodate up to 6 people comfortably with proper microphone setup. Just let us know the number of guests when booking so we can prepare the appropriate equipment and seating arrangement."
+      },
+      {
+        "q": "Do you offer video recording services?",
+        "a": "Yes! We offer professional 4K video recording with multi-camera setups, professional lighting, and cinema-grade equipment. Video recording is available with our Professional and Premium packages, or as an add-on to other sessions."
+      },
+      {
+        "q": "What file formats will I receive?",
+        "a": "You'll receive industry-standard formats: MP3 for easy distribution, WAV for highest quality, and video files in MP4 (H.264/H.265). Raw files are available upon request, especially with our Premium package."
+      },
+      {
+        "q": "Is there parking available?",
+        "a": "Yes! We have dedicated parking spaces for clients. The studio is also easily accessible by public transportation, and we're just 10 minutes from Nice Côte d'Azur Airport for international guests."
+      },
+      {
+        "q": "Can I reschedule or cancel my booking?",
+        "a": "Yes, you can reschedule or cancel up to 48 hours before your session at no charge. Cancellations within 48 hours may incur a fee. We understand things happen, so contact us as soon as possible if you need to make changes."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Ready to Start",
+    "highlight": "Recording?",
+    "description": "Get in touch with us today and let's create something amazing together",
+    "whatsapp": {
+      "title": "WhatsApp",
+      "instant": "Instant response",
+      "description": "Chat with us directly on WhatsApp for quick answers, availability checks, and instant booking confirmation. We typically respond within minutes!",
+      "cta": "Message on WhatsApp"
+    },
+    "location": {
+      "title": "Location",
+      "nice": "Nice, France",
+      "description": "Located in the heart of Nice on the famous Promenade des Anglais, our studio offers easy access and a stunning Mediterranean view.",
+      "address": "Address",
+      "street": "Promenade des Anglais",
+      "city": "06200 Nice, France",
+      "hours": "Hours",
+      "availability": "24/7 Based on Availability"
+    },
+    "cta": "Let's Create Something Amazing",
+    "subtext": "Whether you're starting a new podcast or looking to upgrade your production quality, we're here to help you succeed.",
+    "consultation": "Get Your Free Consultation"
+  },
+  "footer": {
+    "tagline": "Professional podcast recording studio in Nice, France. State-of-the-art equipment, expert sound engineering, and a passion for helping creators produce exceptional content.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "address": "Nice, France",
+    "whatsapp": "WhatsApp",
+    "availability": "24/7 Availability",
+    "rights": "All rights reserved",
+    "madeWith": "Made with ❤️ in Nice, France"
+  },
+  "whatsapp": {
+    "aria": "Contact us on WhatsApp",
+    "booking": {
+      "general": "Hello! I'm interested in booking a session at Studio Nice Podcast. Can you provide more information?",
+      "starter": "Hi! I'm interested in the Starter plan. Can you help me book a session?",
+      "professional": "Hi! I'm interested in the Professional plan. Can you help me book a session?",
+      "premium": "Hi! I'm interested in the Premium plan. Can you help me book a session?",
+      "services": "Hi! I'd like to know more about your services and booking options.",
+      "consultation": "Hello! I'd like to book a session at Studio Nice Podcast or get more information."
+    }
+  },
+  "meta": {
+    "title": "Studio Nice Podcast | Professional Recording Studio in Nice, France",
+    "description": "Premium podcast recording studio in Nice. State-of-the-art equipment, professional sound engineering, and flexible booking options for content creators.",
+    "keywords": "podcast studio nice, recording studio france, content creation nice, professional audio recording"
+  }
+}

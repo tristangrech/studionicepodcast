@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "pricing": "Tarifs",
+    "studio": "Studio",
+    "faq": "FAQ",
+    "bookNow": "Réserver",
+    "close": "Fermer"
+  },
+  "hero": {
+    "title": "Votre Podcast,",
+    "subtitle": "Qualité Professionnelle",
+    "description": "Créez un contenu exceptionnel au cœur de Nice. Équipement de pointe, ingénierie sonore professionnelle et livraison instantanée.",
+    "primaryCTA": "Réservez Votre Séance",
+    "secondaryCTA": "Découvrir les Services",
+    "stats": {
+      "video": "Enregistrement Vidéo",
+      "space": "Espace Studio",
+      "availability": "Disponibilité",
+      "rating": "Note Client"
+    }
+  },
+  "features": {
+    "title": "Pourquoi Choisir",
+    "highlight": "Studio Nice Podcast",
+    "description": "Tout ce dont vous avez besoin pour créer un contenu podcast professionnel en un seul lieu",
+    "features": {
+      "audio": {
+        "title": "Audio Professionnel",
+        "description": "Microphones de pointe et isolation phonique pour une qualité audio cristalline"
+      },
+      "video": {
+        "title": "Enregistrement Vidéo 4K",
+        "description": "Configuration multi-caméras avec éclairage professionnel pour un contenu vidéo époustouflant"
+      },
+      "booking": {
+        "title": "Réservation Flexible",
+        "description": "Système de réservation en ligne facile avec disponibilité en temps réel et confirmation instantanée"
+      },
+      "support": {
+        "title": "Support Expert",
+        "description": "Équipe technique sur place pour garantir le bon déroulement de votre séance d'enregistrement"
+      }
+    },
+    "cta": "Commencer Maintenant"
+  },
+  "pricing": {
+    "title": "Tarifs Simples et",
+    "highlight": "Transparents",
+    "description": "Choisissez le forfait parfait pour vos besoins de podcast",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "199€",
+        "duration": "/séance",
+        "description": "Parfait pour les débutants et podcasteurs solos",
+        "features": [
+          "Séance d'enregistrement de 2 heures",
+          "Équipement audio professionnel",
+          "Montage et mixage de base",
+          "Fichiers MP3 et WAV",
+          "Configuration 1 microphone",
+          "Éclairage standard"
+        ],
+        "cta": "Réserver le Forfait Starter"
+      },
+      "professional": {
+        "name": "Professionnel",
+        "popular": "Plus Populaire",
+        "price": "399€",
+        "duration": "/séance",
+        "description": "Idéal pour les podcasters réguliers et les interviews",
+        "features": [
+          "Séance d'enregistrement de 4 heures",
+          "Équipement audio premium",
+          "Montage et mixage avancés",
+          "Tous les formats de fichiers inclus",
+          "Jusqu'à 4 microphones",
+          "Configuration d'éclairage professionnel",
+          "Ingénieur du son sur place",
+          "Option d'enregistrement vidéo"
+        ],
+        "cta": "Réserver le Forfait Professionnel"
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "799€",
+        "duration": "/séance",
+        "description": "Production d'une journée complète pour un contenu complet",
+        "features": [
+          "Séance complète de 8 heures",
+          "Équipement haut de gamme",
+          "Post-production complète",
+          "Fichiers bruts et montés",
+          "Jusqu'à 6 microphones",
+          "Éclairage qualité cinéma",
+          "Ingénieur du son dédié",
+          "Vidéo multi-caméras 4K",
+          "Clips pour réseaux sociaux",
+          "Design de miniature"
+        ],
+        "cta": "Réserver le Forfait Premium"
+      }
+    },
+    "customPackage": "Besoin d'un forfait sur mesure ?",
+    "contactUs": "Contactez-nous pour un devis"
+  },
+  "studio": {
+    "title": "Studio de Dernière",
+    "highlight": "Génération",
+    "description": "Équipements et installations professionnels pour une création de contenu exceptionnelle",
+    "stats": {
+      "space": "Espace Studio",
+      "quality": "Qualité Vidéo",
+      "availability": "Disponibilité",
+      "satisfaction": "Satisfaction"
+    },
+    "categories": {
+      "audio": {
+        "title": "Audio",
+        "items": [
+          "Microphones Neumann U87",
+          "Microphones Dynamiques Shure SM7B",
+          "Console SSL",
+          "Casques Professionnels",
+          "Traitement Acoustique"
+        ]
+      },
+      "video": {
+        "title": "Vidéo",
+        "items": [
+          "Caméras Cinéma 4K",
+          "Configuration d'Éclairage Pro",
+          "Options Écran Vert",
+          "Enregistrement Multi-angles",
+          "Téléprompteur Disponible"
+        ]
+      },
+      "facilities": {
+        "title": "Installations",
+        "items": [
+          "Espace Studio de 45m²",
+          "Contrôle Climatique",
+          "Assises Confortables",
+          "Salle de Maquillage",
+          "Espace d'Attente"
+        ]
+      }
+    },
+    "location": {
+      "title": "Emplacement Idéal",
+      "description": "Situé au cœur de Nice, France. Accès facile depuis l'aéroport et les transports en commun. Parfait pour les podcasters locaux et internationaux."
+    },
+    "hours": {
+      "title": "Horaires Flexibles",
+      "description": "Réservez des séances 24h/24 et 7j/7 selon disponibilité. Séances tôt le matin ou tard le soir disponibles pour accommoder votre emploi du temps et vos invités internationaux."
+    }
+  },
+  "faq": {
+    "title": "Questions",
+    "highlight": "Fréquentes",
+    "description": "Tout ce que vous devez savoir sur nos services",
+    "questions": [
+      {
+        "q": "Comment réserver une séance d'enregistrement ?",
+        "a": "Cliquez simplement sur n'importe quel bouton \"Réserver\" ou sur le bouton WhatsApp pour nous contacter directement. Nous vous aiderons à planifier votre séance au moment qui vous convient le mieux. Vous pouvez également nous contacter par téléphone ou email pour vérifier la disponibilité et faire une réservation."
+      },
+      {
+        "q": "Que dois-je préparer avant ma séance ?",
+        "a": "Nous recommandons de préparer votre plan de contenu, vos questions pour les interviews et tous vos scripts à l'avance. Si vous enregistrez avec des invités, coordonnez leur disponibilité. Ne vous inquiétez pas pour le côté technique - notre équipe s'occupera de toute la configuration de l'équipement et des vérifications sonores."
+      },
+      {
+        "q": "Combien de temps prend le montage ?",
+        "a": "Le délai de montage dépend du forfait : Starter inclut le montage de base (3-5 jours), Professionnel inclut le montage avancé (2-3 jours), et Premium inclut le montage prioritaire (24-48 heures). La livraison express est disponible moyennant des frais supplémentaires."
+      },
+      {
+        "q": "Puis-je amener des invités à ma séance d'enregistrement ?",
+        "a": "Absolument ! Notre studio peut accueillir jusqu'à 6 personnes confortablement avec une configuration appropriée de microphones. Informez-nous simplement du nombre d'invités lors de la réservation afin que nous puissions préparer l'équipement et la configuration d'assises appropriés."
+      },
+      {
+        "q": "Offrez-vous des services d'enregistrement vidéo ?",
+        "a": "Oui ! Nous offrons un enregistrement vidéo professionnel 4K avec des configurations multi-caméras, un éclairage professionnel et un équipement de qualité cinéma. L'enregistrement vidéo est disponible avec nos forfaits Professionnel et Premium, ou en option pour les autres séances."
+      },
+      {
+        "q": "Quels formats de fichiers recevrai-je ?",
+        "a": "Vous recevrez des formats standard de l'industrie : MP3 pour une distribution facile, WAV pour la meilleure qualité, et fichiers vidéo en MP4 (H.264/H.265). Les fichiers bruts sont disponibles sur demande, surtout avec notre forfait Premium."
+      },
+      {
+        "q": "Y a-t-il des places de parking ?",
+        "a": "Oui ! Nous avons des places de parking dédiées pour les clients. Le studio est également facilement accessible par les transports en commun, et nous sommes à seulement 10 minutes de l'Aéroport Nice Côte d'Azur pour les invités internationaux."
+      },
+      {
+        "q": "Puis-je reporter ou annuler ma réservation ?",
+        "a": "Oui, vous pouvez reporter ou annuler jusqu'à 48 heures avant votre séance sans frais. Les annulations dans les 48 heures peuvent entraîner des frais. Nous comprenons que des imprévus arrivent, contactez-nous dès que possible si vous devez apporter des modifications."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Prêt à Commencer",
+    "highlight": "l'Enregistrement ?",
+    "description": "Contactez-nous aujourd'hui et créons quelque chose d'extraordinaire ensemble",
+    "whatsapp": {
+      "title": "WhatsApp",
+      "instant": "Réponse instantanée",
+      "description": "Discutez avec nous directement sur WhatsApp pour des réponses rapides, des vérifications de disponibilité et une confirmation de réservation instantanée. Nous répondons généralement en quelques minutes !",
+      "cta": "Envoyer un Message WhatsApp"
+    },
+    "location": {
+      "title": "Emplacement",
+      "nice": "Nice, France",
+      "description": "Situé au cœur de Nice sur la célèbre Promenade des Anglais, notre studio offre un accès facile et une vue magnifique sur la Méditerranée.",
+      "address": "Adresse",
+      "street": "Promenade des Anglais",
+      "city": "06200 Nice, France",
+      "hours": "Horaires",
+      "availability": "24h/24 et 7j/7 Selon Disponibilité"
+    },
+    "cta": "Créons Quelque Chose d'Extraordinaire",
+    "subtext": "Que vous lanciez un nouveau podcast ou que vous cherchiez à améliorer la qualité de votre production, nous sommes là pour vous aider à réussir.",
+    "consultation": "Obtenir une Consultation Gratuite"
+  },
+  "footer": {
+    "tagline": "Studio d'enregistrement podcast professionnel à Nice, France. Équipement de pointe, ingénierie sonore experte, et une passion pour aider les créateurs à produire un contenu exceptionnel.",
+    "quickLinks": "Liens Rapides",
+    "contact": "Contact",
+    "address": "Nice, France",
+    "whatsapp": "WhatsApp",
+    "availability": "Disponible 24h/24",
+    "rights": "Tous droits réservés",
+    "madeWith": "Fait avec ❤️ à Nice, France"
+  },
+  "whatsapp": {
+    "aria": "Contactez-nous sur WhatsApp",
+    "booking": {
+      "general": "Bonjour ! Je suis intéressé par une séance au Studio Nice Podcast. Pouvez-vous me donner plus d'informations ?",
+      "starter": "Bonjour ! Je suis intéressé par le forfait Starter. Pouvez-vous m'aider à réserver une séance ?",
+      "professional": "Bonjour ! Je suis intéressé par le forfait Professionnel. Pouvez-vous m'aider à réserver une séance ?",
+      "premium": "Bonjour ! Je suis intéressé par le forfait Premium. Pouvez-vous m'aider à réserver une séance ?",
+      "services": "Bonjour ! J'aimerais en savoir plus sur vos services et les options de réservation.",
+      "consultation": "Bonjour ! J'aimerais réserver une séance au Studio Nice Podcast ou obtenir plus d'informations."
+    }
+  },
+  "meta": {
+    "title": "Studio Nice Podcast | Studio d'Enregistrement Professionnel à Nice, France",
+    "description": "Studio d'enregistrement podcast premium à Nice. Équipement de pointe, ingénierie sonore professionnelle et options de réservation flexibles pour les créateurs de contenu.",
+    "keywords": "studio podcast nice, studio d'enregistrement france, création de contenu nice, enregistrement audio professionnel"
+  }
+}
