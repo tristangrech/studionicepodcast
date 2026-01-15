@@ -1,9 +1,9 @@
 {
   "build": {
-    "command": "npm run build",
+    "command": "npm run pages:build",
     "cwd": "/"
   },
   "env": {
-    "NODE_VERSION": "18"
+    "NODE_VERSION": "20"
   }
 }
