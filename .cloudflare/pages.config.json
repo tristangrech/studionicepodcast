@@ -1,6 +1,6 @@
 {
   "build": {
-    "command": "npm run build",
+    "command": "npm run build && npx @cloudflare/next-on-pages",
     "cwd": "/"
   },
   "env": {
