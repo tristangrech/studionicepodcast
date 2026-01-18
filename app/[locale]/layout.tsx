@@ -5,6 +5,8 @@ import { Inter } from 'next/font/google'
 import { locales, type Locale } from '@/lib/i18n'
 import './globals.css'
 
+export const runtime = 'edge'
+
 const inter = Inter({ subsets: ['latin'] })
 
 type Props = {
@@ -45,10 +47,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       },
     },
   }
-}
-
-export async function generateStaticParams() {
-  return locales.map((locale) => ({ locale }))
 }
 
 export default async function LocaleLayout({ children, params }: Props) {
