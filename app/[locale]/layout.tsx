@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'meta' })
 
-  const baseUrl = locale === 'fr' ? 'https://studionicepodcast.fr' : 'https://studionicepodcast.com'
+  const baseUrl = locale === 'fr' ? 'https://studionicepodcast.com/fr' : 'https://studionicepodcast.com'
 
   return {
     metadataBase: new URL(baseUrl),
@@ -34,17 +34,24 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'website',
       locale: locale,
       alternateLocale: locale === 'en' ? 'fr' : 'en',
+      images: [{
+        url: '/images/hero.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Studio Nice Podcast - Professional Recording Studio',
+      }],
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
+      images: ['/images/hero.webp'],
     },
     alternates: {
       canonical: baseUrl,
       languages: {
         'en': 'https://studionicepodcast.com',
-        'fr': 'https://studionicepodcast.fr',
+        'fr': 'https://studionicepodcast.com/fr',
       },
     },
   }
