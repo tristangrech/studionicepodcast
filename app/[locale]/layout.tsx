@@ -32,8 +32,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       url: baseUrl,
       siteName: 'Studio Nice Podcast',
       type: 'website',
-      locale: locale,
-      alternateLocale: locale === 'en' ? 'fr' : 'en',
+      locale: locale === 'fr' ? 'fr_FR' : 'en_US',
+      alternateLocale: locale === 'fr' ? 'en_US' : 'fr_FR',
       images: [{
         url: '/images/hero.webp',
         width: 1200,

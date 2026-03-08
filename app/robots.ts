@@ -3,6 +3,6 @@ import { MetadataRoute } from 'next'
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: '*', allow: '/' },
-    sitemap: ['https://studionicepodcast.com/sitemap.xml', 'https://studionicepodcast.fr/sitemap.xml'],
+    sitemap: 'https://studionicepodcast.com/sitemap.xml',
   }
 }
