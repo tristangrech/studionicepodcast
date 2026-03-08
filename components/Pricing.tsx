@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl'
 import { motion } from 'framer-motion'
 import { CheckIcon } from './Icons'
 import { useWhatsAppMessages } from '@/lib/useWhatsApp'
+import { BorderBeam } from './ui/border-beam'
 
 const cardVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -82,7 +83,7 @@ export default function Pricing() {
         </motion.div>
 
         {/* Pricing cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-5 lg:gap-8 max-w-6xl mx-auto items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-5 lg:gap-8 max-w-6xl mx-auto items-stretch">
           {(['starter', 'professional', 'premium'] as const).map((plan, planIndex) => {
             const isProfessional = plan === 'professional'
             const count = featureCounts[plan]
@@ -130,6 +131,8 @@ export default function Pricing() {
                       </motion.span>
                     </div>
                   )}
+
+                  {isProfessional && <BorderBeam size={300} duration={12} borderWidth={2} />}
 
                   <div className="relative">
                     {/* Plan header */}
@@ -217,7 +220,7 @@ export default function Pricing() {
           viewport={{ once: true }}
           transition={{ delay: 0.8, duration: 0.6 }}
         >
-          <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-8 py-4">
+          <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-2xl px-8 py-4">
             <p className="text-gray-400 text-lg">
               {t('customPackage')}{' '}
               <button

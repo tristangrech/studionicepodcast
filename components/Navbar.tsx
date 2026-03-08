@@ -60,7 +60,7 @@ export default function Navbar() {
     if (isMobileMenuOpen) {
       document.body.style.overflow = 'hidden'
     } else {
-      document.body.style.overflow = 'unset'
+      document.body.style.overflow = ''
     }
   }, [isMobileMenuOpen])
 
@@ -159,6 +159,19 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+
+      {/* Mobile menu backdrop */}
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <motion.div
+            className="fixed inset-0 bg-black/50 z-30"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setIsMobileMenuOpen(false)}
+          />
+        )}
+      </AnimatePresence>
 
       {/* Mobile menu */}
       <AnimatePresence>

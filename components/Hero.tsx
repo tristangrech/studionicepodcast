@@ -4,6 +4,9 @@ import { useTranslations } from 'next-intl'
 import { useWhatsAppMessages } from '@/lib/useWhatsApp'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import { Spotlight } from './ui/spotlight'
+import { TextGenerateEffect } from './ui/text-generate-effect'
+import { BackgroundBeams } from './ui/background-beams'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -27,14 +30,15 @@ const fadeUpVariants = {
 
 const floatingVariants = {
   initial: { y: 0 },
-  animate: {
+  animate: (custom: number) => ({
     y: [-6, 6, -6],
     transition: {
       duration: 4,
       repeat: Infinity,
       ease: 'easeInOut' as const,
+      delay: custom * 0.5,
     },
-  },
+  }),
 }
 
 const statCardVariants = {
@@ -67,6 +71,8 @@ export default function Hero() {
       className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8 pt-16 md:pt-20"
       aria-label="Hero section"
     >
+      <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="#D4AF37" />
+
       {/* Background image */}
       <Image
         src="/images/hero.webp"
@@ -85,6 +91,8 @@ export default function Hero() {
       <div className="absolute top-20 right-20 w-72 h-72 bg-accent/10 rounded-full blur-3xl hidden sm:block z-[2]" />
       <div className="absolute bottom-20 left-20 w-96 h-96 bg-accent/5 rounded-full blur-3xl hidden sm:block z-[2]" />
 
+      <BackgroundBeams className="opacity-20" />
+
       <motion.div
         className="relative z-10 max-w-7xl mx-auto text-center"
         variants={containerVariants}
@@ -96,7 +104,7 @@ export default function Hero() {
           <motion.div variants={fadeUpVariants} className="flex justify-center">
             <span className="inline-flex items-center gap-2 bg-accent/10 border border-accent/30 text-accent text-sm sm:text-base font-medium px-5 py-2 rounded-full backdrop-blur-sm">
               <span className="w-2 h-2 bg-accent rounded-full animate-pulse" />
-              Professional Podcast Studio in Nice
+              {t('badge')}
             </span>
           </motion.div>
 
@@ -112,12 +120,9 @@ export default function Hero() {
           </motion.h1>
 
           {/* Description */}
-          <motion.p
-            variants={fadeUpVariants}
-            className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed px-4"
-          >
-            {t('description')}
-          </motion.p>
+          <motion.div variants={fadeUpVariants}>
+            <TextGenerateEffect words={t('description')} className="text-base md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed" />
+          </motion.div>
 
           {/* CTAs */}
           <motion.div
@@ -159,7 +164,7 @@ export default function Hero() {
                   variants={floatingVariants}
                   initial="initial"
                   animate="animate"
-                  style={{ animationDelay: `${i * 0.5}s` }}
+                  custom={i}
                 >
                   <div className="text-2xl sm:text-3xl font-bold text-accent">{stat.value}</div>
                   <div className="text-gray-400 text-xs sm:text-sm mt-1">{stat.label}</div>

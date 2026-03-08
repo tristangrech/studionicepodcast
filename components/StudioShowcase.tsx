@@ -53,7 +53,7 @@ export default function StudioShowcase() {
   const categoriesInView = useInView(categoriesRef, { once: true, margin: '-60px' })
 
   const galleryImages = [
-    { src: '/images/studio-room.webp', alt: 'Studio Room', span: 'md:col-span-2 md:row-span-2' },
+    { src: '/images/studio-room.webp', alt: 'Studio Room', span: 'col-span-2 md:col-span-2 md:row-span-2' },
     { src: '/images/equipment.webp', alt: 'Equipment', span: '' },
     { src: '/images/video-setup.webp', alt: 'Video Setup', span: '' },
   ]

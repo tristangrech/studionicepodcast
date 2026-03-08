@@ -9,11 +9,12 @@
     "close": "Close"
   },
   "hero": {
+    "badge": "Professional Podcast Studio in Nice",
     "title": "Your Podcast,",
     "subtitle": "Professional Quality",
-    "description": "Create exceptional content in the heart of Nice. State-of-the-art equipment, professional sound engineering, and instant delivery.",
+    "description": "Walk in with an idea, walk out with a broadcast-ready episode. Our sound-treated studio on the French Riviera gives you pro-grade audio, 4K video, and edited files delivered within days.",
     "primaryCTA": "Book Your Session Now",
-    "secondaryCTA": "Explore Services",
+    "secondaryCTA": "See What's Included",
     "stats": {
       "video": "Video Recording",
       "space": "Studio Space",
@@ -28,22 +29,22 @@
     "features": {
       "audio": {
         "title": "Professional Audio",
-        "description": "State-of-the-art microphones and soundproofing for crystal-clear audio quality"
+        "description": "Broadcast-quality microphones and soundproofing for crystal-clear audio quality"
       },
       "video": {
         "title": "4K Video Recording",
-        "description": "Multi-camera setup with professional lighting for stunning video content"
+        "description": "Grow your audience on YouTube and social media with cinematic 4K video shot from multiple angles"
       },
       "booking": {
         "title": "Flexible Booking",
-        "description": "Easy online booking system with real-time availability and instant confirmation"
+        "description": "Check availability and lock in your session in under 2 minutes via WhatsApp — no back-and-forth emails"
       },
       "support": {
         "title": "Expert Support",
-        "description": "On-site technical team to ensure your recording session runs smoothly"
+        "description": "Focus on your content while our sound engineer handles levels, mixing, and troubleshooting in real time"
       }
     },
-    "cta": "Get Started Today"
+    "cta": "Book Your First Session"
   },
   "pricing": {
     "title": "Simple, Transparent",
@@ -54,7 +55,7 @@
         "name": "Starter",
         "price": "€199",
         "duration": "/session",
-        "description": "Perfect for beginners and solo podcasters",
+        "description": "Everything you need to launch your first episode",
         "features": [
           "2-hour recording session",
           "Professional audio equipment",
@@ -70,7 +71,7 @@
         "popular": "Most Popular",
         "price": "€399",
         "duration": "/session",
-        "description": "Ideal for regular podcasters and interviews",
+        "description": "Your complete interview setup with video-ready production",
         "features": [
           "4-hour recording session",
           "Premium audio equipment",
@@ -87,7 +88,7 @@
         "name": "Premium",
         "price": "€799",
         "duration": "/session",
-        "description": "Full-day production for comprehensive content",
+        "description": "A full day of production — record a month of content in one session",
         "features": [
           "8-hour full-day session",
           "Top-of-the-line equipment",
@@ -221,7 +222,7 @@
     "consultation": "Get Your Free Consultation"
   },
   "footer": {
-    "tagline": "Professional podcast recording studio in Nice, France. State-of-the-art equipment, expert sound engineering, and a passion for helping creators produce exceptional content.",
+    "tagline": "Professional podcast recording studio in Nice, France. Broadcast-grade equipment, expert sound engineering, and a passion for helping creators produce exceptional content.",
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "address": "Nice, France",
@@ -243,7 +244,7 @@
   },
   "meta": {
     "title": "Studio Nice Podcast | Professional Recording Studio in Nice, France",
-    "description": "Premium podcast recording studio in Nice. State-of-the-art equipment, professional sound engineering, and flexible booking options for content creators.",
-    "keywords": "podcast studio nice, recording studio france, content creation nice, professional audio recording"
+    "description": "Book a professional podcast recording studio in Nice, France. 4K video, professional microphones, on-site sound engineer, and edited files delivered in days. Sessions from €199.",
+    "keywords": "podcast studio nice, recording studio nice france, video podcast studio french riviera, podcast recording cote d'azur, professional podcast production nice, book podcast studio nice"
   }
 }

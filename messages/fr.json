@@ -9,11 +9,12 @@
     "close": "Fermer"
   },
   "hero": {
+    "badge": "Studio Podcast Professionnel \u00e0 Nice",
     "title": "Votre Podcast,",
     "subtitle": "Qualité Professionnelle",
-    "description": "Créez un contenu exceptionnel au cœur de Nice. Équipement de pointe, ingénierie sonore professionnelle et livraison instantanée.",
+    "description": "Arrivez avec une idée, repartez avec un épisode prêt à diffuser. Notre studio insonorisé sur la Côte d'Azur vous offre un son professionnel, de la vidéo 4K et des fichiers montés livrés en quelques jours.",
     "primaryCTA": "Réservez Votre Séance",
-    "secondaryCTA": "Découvrir les Services",
+    "secondaryCTA": "Voir Ce Qui Est Inclus",
     "stats": {
       "video": "Enregistrement Vidéo",
       "space": "Espace Studio",
@@ -28,22 +29,22 @@
     "features": {
       "audio": {
         "title": "Audio Professionnel",
-        "description": "Microphones de pointe et isolation phonique pour une qualité audio cristalline"
+        "description": "Microphones broadcast de référence et isolation phonique pour une qualité audio cristalline"
       },
       "video": {
         "title": "Enregistrement Vidéo 4K",
-        "description": "Configuration multi-caméras avec éclairage professionnel pour un contenu vidéo époustouflant"
+        "description": "Développez votre audience sur YouTube et les réseaux sociaux avec de la vidéo 4K cinématique filmée sous plusieurs angles"
       },
       "booking": {
         "title": "Réservation Flexible",
-        "description": "Système de réservation en ligne facile avec disponibilité en temps réel et confirmation instantanée"
+        "description": "Vérifiez la disponibilité et confirmez votre séance en moins de 2 minutes via WhatsApp — sans échanges d'emails interminables"
       },
       "support": {
         "title": "Support Expert",
-        "description": "Équipe technique sur place pour garantir le bon déroulement de votre séance d'enregistrement"
+        "description": "Concentrez-vous sur votre contenu pendant que notre ingénieur du son gère les niveaux, le mixage et les ajustements en temps réel"
       }
     },
-    "cta": "Commencer Maintenant"
+    "cta": "Réserver Votre Première Séance"
   },
   "pricing": {
     "title": "Tarifs Simples et",
@@ -54,7 +55,7 @@
         "name": "Starter",
         "price": "199€",
         "duration": "/séance",
-        "description": "Parfait pour les débutants et podcasteurs solos",
+        "description": "Tout ce qu'il faut pour lancer votre premier épisode",
         "features": [
           "Séance d'enregistrement de 2 heures",
           "Équipement audio professionnel",
@@ -67,10 +68,10 @@
       },
       "professional": {
         "name": "Professionnel",
-        "popular": "Plus Populaire",
+        "popular": "Le Plus Demandé",
         "price": "399€",
         "duration": "/séance",
-        "description": "Idéal pour les podcasters réguliers et les interviews",
+        "description": "Votre setup interview complet avec une production prête pour la vidéo",
         "features": [
           "Séance d'enregistrement de 4 heures",
           "Équipement audio premium",
@@ -87,7 +88,7 @@
         "name": "Premium",
         "price": "799€",
         "duration": "/séance",
-        "description": "Production d'une journée complète pour un contenu complet",
+        "description": "Une journée entière de production — enregistrez un mois de contenu en une seule séance",
         "features": [
           "Séance complète de 8 heures",
           "Équipement haut de gamme",
@@ -141,8 +142,8 @@
         "title": "Installations",
         "items": [
           "Espace Studio de 45m²",
-          "Contrôle Climatique",
-          "Assises Confortables",
+          "Climatisation",
+          "Sièges Confortables",
           "Salle de Maquillage",
           "Espace d'Attente"
         ]
@@ -221,7 +222,7 @@
     "consultation": "Obtenir une Consultation Gratuite"
   },
   "footer": {
-    "tagline": "Studio d'enregistrement podcast professionnel à Nice, France. Équipement de pointe, ingénierie sonore experte, et une passion pour aider les créateurs à produire un contenu exceptionnel.",
+    "tagline": "Studio d'enregistrement podcast professionnel à Nice, France. Équipement de qualité broadcast, ingénierie sonore experte, et une passion pour aider les créateurs à produire un contenu exceptionnel.",
     "quickLinks": "Liens Rapides",
     "contact": "Contact",
     "address": "Nice, France",
@@ -243,7 +244,7 @@
   },
   "meta": {
     "title": "Studio Nice Podcast | Studio d'Enregistrement Professionnel à Nice, France",
-    "description": "Studio d'enregistrement podcast premium à Nice. Équipement de pointe, ingénierie sonore professionnelle et options de réservation flexibles pour les créateurs de contenu.",
-    "keywords": "studio podcast nice, studio d'enregistrement france, création de contenu nice, enregistrement audio professionnel"
+    "description": "Réservez un studio d'enregistrement podcast professionnel à Nice. Vidéo 4K, microphones professionnels, ingénieur du son sur place et fichiers montés livrés en quelques jours. Séances dès 199€.",
+    "keywords": "studio podcast nice, studio enregistrement podcast nice, louer studio podcast côte d'azur, enregistrement podcast professionnel nice, vidéo podcast nice france"
   }
 }

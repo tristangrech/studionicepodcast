@@ -1,14 +1,14 @@
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, getTranslations } from 'next-intl/server'
 import { notFound } from 'next/navigation'
-import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import { locales, type Locale } from '@/lib/i18n'
 import StructuredData from '@/components/StructuredData'
 import './globals.css'
 
 export const runtime = 'edge'
 
-const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ['latin'], weight: ['300','400','500','600','700','800','900'] })
 
 type Props = {
   children: React.ReactNode
@@ -77,7 +77,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <StructuredData locale={locale} />
       </head>
-      <body className={inter.className}>
+      <body className={montserrat.className}>
         <NextIntlClientProvider messages={messages} locale={locale}>
           {children}
         </NextIntlClientProvider>

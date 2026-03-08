@@ -7,6 +7,7 @@ import Image from 'next/image'
 import { LocationIcon } from './Icons'
 import { WHATSAPP_NUMBER } from '@/lib/constants'
 import { useLocale } from 'next-intl'
+import { BackgroundBeams } from './ui/background-beams'
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
@@ -42,8 +43,9 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 md:py-32 bg-primary/50 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="relative py-20 md:py-32 bg-primary/50 overflow-hidden">
+      <BackgroundBeams className="opacity-10" />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
           ref={headerRef}
@@ -51,7 +53,7 @@ export default function Contact() {
           animate={headerInView ? 'visible' : 'hidden'}
           variants={fadeInUp}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="text-center mb-14 md:mb-18"
+          className="text-center mb-14 md:mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
             {t('title')} <span className="text-accent">{t('highlight')}</span>
