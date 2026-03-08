@@ -3,6 +3,7 @@ import { getMessages, getTranslations } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { Inter } from 'next/font/google'
 import { locales, type Locale } from '@/lib/i18n'
+import StructuredData from '@/components/StructuredData'
 import './globals.css'
 
 export const runtime = 'edge'
@@ -66,6 +67,8 @@ export default async function LocaleLayout({ children, params }: Props) {
       <head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <StructuredData locale={locale} />
       </head>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages} locale={locale}>

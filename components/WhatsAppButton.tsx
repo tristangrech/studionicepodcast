@@ -3,6 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl'
 import { WhatsAppIcon } from './Icons'
 import { WHATSAPP_NUMBER } from '@/lib/constants'
+import { motion } from 'framer-motion'
 
 export default function WhatsAppButton() {
   const t = useTranslations('whatsapp')
@@ -18,12 +19,17 @@ export default function WhatsAppButton() {
   }
 
   return (
-    <button
+    <motion.button
       onClick={handleClick}
-      className="whatsapp-btn fixed bottom-4 sm:bottom-6 right-4 sm:right-6 z-50 bg-[#25D366] hover:bg-[#20BA5A] text-white p-3 sm:p-4 rounded-full shadow-2xl transition-all duration-300 hover:scale-110 touch-manipulation"
+      className="whatsapp-btn fixed bottom-4 sm:bottom-6 right-4 sm:right-6 z-50 bg-[#25D366] hover:bg-[#20BA5A] text-white p-3.5 sm:p-4 rounded-full shadow-2xl transition-colors duration-300 touch-manipulation"
       aria-label={t('aria')}
+      initial={{ scale: 0, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      transition={{ delay: 1.5, type: 'spring', stiffness: 200 }}
+      whileHover={{ scale: 1.15 }}
+      whileTap={{ scale: 0.95 }}
     >
-      <WhatsAppIcon className="w-6 h-6 sm:w-8 sm:h-8" />
-    </button>
+      <WhatsAppIcon className="w-6 h-6 sm:w-7 sm:h-7" />
+    </motion.button>
   )
 }
